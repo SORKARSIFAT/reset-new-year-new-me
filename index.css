@@ -6,3 +6,40 @@
     margin: 0;
     padding: 0;
 }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 150px ;
+
+}
+
+nav ul li{
+  list-style: none;
+}
+
+.nav-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.btn-nav{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+padding: 16px 22px 16px 22px;
+transition: 0.3s;
+
+}
+.btn-nav:hover{
+    background-color: crimson;
+    color: white;
+    border: none;
+    
+}
