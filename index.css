@@ -213,3 +213,87 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
+
+.why-card-btn:hover{
+ background-color: crimson;
+ color: white;
+ border: none;
+ 
+}
+
+.show-tube-video{
+    
+border: 0 solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin-top: 48px;
+}
+.youtube-video{
+    padding: 15px;
+} 
+
+
+/* My Current Target */  
+.current-container{
+    margin-top: 50px; 
+    display: flex;
+    gap: 48px; 
+    padding: 30px; 
+   
+}
+
+.current-card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 24px;
+padding: 0px;
+border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05); 
+padding: 10px 30px; 
+width: 360px;
+height: 220px
+}
+
+
+
+.current-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.current-subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.current-link{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline; 
+ 
+}
+ .css-card{
+    background: rgba(0, 76, 232, 0.05);
+ } 
+  
+ .js-card{
+    background: rgba(255, 223, 0, 0.05);
+ }
